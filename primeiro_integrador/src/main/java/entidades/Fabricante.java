@@ -6,9 +6,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-public class Categoria {
+public class Fabricante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Integer codigo;
+    public Integer id;
     public String nome;
 }
