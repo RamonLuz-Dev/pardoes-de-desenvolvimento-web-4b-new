@@ -23,4 +23,7 @@ public class Venda {
     @ManyToOne
     public Funcionario funcionario;
 
+    @ManyToOne
+    public Produto produto;
+
 }

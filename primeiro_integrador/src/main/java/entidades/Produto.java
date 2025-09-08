@@ -12,7 +12,7 @@ import jakarta.persistence.ManyToOne;
 public class Produto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Long id; 
+    public Integer codigo; 
 
     public String nome;
     public Integer quantidade;

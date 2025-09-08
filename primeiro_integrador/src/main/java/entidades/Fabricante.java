@@ -9,6 +9,6 @@ import jakarta.persistence.Id;
 public class Fabricante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Integer id;
+    public Integer codigo;
     public String nome;
 }

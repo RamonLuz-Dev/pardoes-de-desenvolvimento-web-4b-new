@@ -10,7 +10,7 @@ public class Funcionario {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public Integer codigo;
+    public Integer id;
     public String nome;
     public Integer cpf;    
 }
