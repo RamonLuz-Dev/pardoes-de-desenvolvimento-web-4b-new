@@ -7,10 +7,9 @@ import io.quarkus.panache.common.Sort;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 
-
-@Path("produtos")
-public class ProdutoRecurso {
-    @GET
+@Path("vendas")
+public class VendaRecurso {
+     @GET
     public List<Produto> listar () {
         return Produto.listAll(Sort.ascending("nome"));
     }
