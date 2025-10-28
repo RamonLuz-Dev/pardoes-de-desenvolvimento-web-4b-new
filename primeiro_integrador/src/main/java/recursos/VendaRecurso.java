@@ -2,7 +2,7 @@ package recursos;
 
 import java.util.List;
 
-import entidades.Produto;
+import entidades.Venda;
 import io.quarkus.panache.common.Sort;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -10,7 +10,7 @@ import jakarta.ws.rs.Path;
 @Path("vendas")
 public class VendaRecurso {
      @GET
-    public List<Produto> listar () {
-        return Produto.listAll(Sort.ascending("nome"));
+    public List<Venda> listar () {
+        return Venda.listAll(Sort.ascending("codigo", "data", "valorTotal", "quantidadeTotal"));
     }
 }

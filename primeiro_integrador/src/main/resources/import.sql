@@ -62,16 +62,16 @@ insert into Cliente (nome) values ('Larissa');
 insert into Cliente (nome) values ('Fernanda');
 
 
-insert into Venda (data) values ('2024-06-01');
-insert into Venda (data) values ('2024-06-02');
-insert into Venda (data) values ('2024-06-03');
-insert into Venda (data) values ('2024-06-04');
-insert into Venda (data) values ('2024-06-05');
-insert into Venda (data) values ('2024-06-06');
-insert into Venda (data) values ('2024-06-07');
-insert into Venda (data) values ('2024-06-08');
-insert into Venda (data) values ('2024-06-09');
-insert into Venda (data) values ('2024-06-10');
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-01', 152.75, 3);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-02', 89.90, 2);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-03', 245.30, 5);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-04', 310.00, 6);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-05', 125.50, 3);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-06', 560.99, 10);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-07', 75.25, 1);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-08', 412.60, 8);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-09', 199.99, 4);
+insert into Venda (data, valorTotal, quantidadeTotal) values ('2024-06-10', 340.80, 7);
 
 
 insert into ItemVenda (valorParcial, quantidadeParcial) values (2.5, 1500);
